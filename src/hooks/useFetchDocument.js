@@ -27,14 +27,14 @@ export const useFetchDocument = (docCollection, id) => {
             } catch (error) {
                 setError(error.message);
 
-                setLoading(true);
+                setLoading(false);
             }
 
         }
 
         loadDocument();
 
-    }, [docCollection, id, cancelled, loading]);
+    }, [docCollection, id, cancelled]);
 
     useEffect(() => {
         return () => setCancelled(true);
