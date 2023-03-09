@@ -17,9 +17,9 @@ const Dashboard = () => {
   // delete document
   const {deleteDocument} = useDeleteDocument('posts');
 
-  if (loading) {
-    return <p>Carregando...</p>;
-  }
+  // if (loading) {
+  //   return <p>Carregando...</p>;
+  // };
 
   return (
     <div className={styles.dashboard}>
