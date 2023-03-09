@@ -1,0 +1,23 @@
+.create_post {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.create_post h2 {
+    font-size: 2.2em;
+}
+
+.create_post p {
+    color: #aaa;
+    margin-bottom: 2em;
+}
+
+.create_post form {
+    width: 80%;
+    padding-top: 2em;
+}
+
+.create_post textarea {
+    resize: vertical;
+}

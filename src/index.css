@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Mukta', Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;  
+}
+
+body {
+    background-color: #f6fffb;
+}
+
+input::placeholder, textarea::placeholder {
+    font-family: 'Mukta', Arial, Helvetica, sans-serif;
+    color: #aaa;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+}
+
+a, nav button {
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    color: #0f0f0f;
+    transition: .4s;
+    font-size: 1em;
+    cursor: pointer;
+    font-family: 'Mukta', Arial, Helvetica, sans-serif;
+}
+
+a:hover, nav button:hover {
+    color: #b9b9b9;
+}
+
+/* form styles */
+form {
+    max-width: 30%;
+    margin: 0 auto;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+label span {
+    /* margin-bottom: .3em; */
+    font-weight: bold;
+    text-align: left;
+}
+
+input, textarea {
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 0.8em 0;
+    background-color: transparent;
+}
+
+/* input with icon */
+
+.inputWithIcon input {
+    padding-left: 40px;
+}
+
+.inputWithIcon {
+    position: relative;
+}
+
+.inputWithIcon i {
+    position: absolute;
+    top: 1.3em;
+    /* left: 90%; */
+    font-size: 22px;
+    padding: 0 8px;
+    color: #aaa;
+}
+
+/* buttons */
+.btn {
+    background-color: #1a8918;
+    color: #fff;
+    text-align:center;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 120px;
+    font-weight: bold;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    transition: .4s;
+}
+
+.btn.btn-dark {
+    background-color: #0f0f0f;
+    margin-bottom: 0;
+    display: inline-block;
+}
+
+.btn.btn-outline {
+    background-color: transparent;
+    border-radius: 0;
+    color: #0f0f0f;
+    border: 1px solid #0f0f0f;
+    padding: 7px 30px;
+}
+
+.btn:hover {
+    background-color: #1a8918;
+    color: #fff;
+}
+
+.btn.btn.btn-outline:hover {
+    background-color: #0f0f0f;
+    color: #ffffff;
+}
+
+.btn.btn-danger {
+    background-color: transparent;
+    border-radius: 0;
+    color: #0f0f0f;
+    border: 1px solid #0f0f0f;
+    padding: 7px 30px;
+}
+.btn.btn-danger:hover {
+    background-color: #ff0000;
+}
+
+button[disabled] {
+    background-color: #AAA;
+}
+
+.container .error {
+    color: #721c24;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    padding: 5px;
+    border-radius: 5px;
+}

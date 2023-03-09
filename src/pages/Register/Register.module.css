@@ -1,0 +1,9 @@
+.register {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.register p {
+    color: #aaa;
+    margin-bottom: 2em;
+}

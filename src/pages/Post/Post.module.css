@@ -1,0 +1,31 @@
+.post_container {
+    text-align: center;
+}
+
+.post_container p {
+    margin-bottom: 2em;
+}
+
+.post_container h3 {
+    margin-bottom: .2em;
+}
+
+.tags {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.post_container img {
+    width: 600px;
+}
+
+.tags p {
+    margin-right: 1em;
+}
+
+.tags span {
+    font-weight: bold;
+}
+
+

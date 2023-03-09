@@ -1,0 +1,47 @@
+:root {
+    --background-nav: rgb(21, 21, 20);
+    --primary-color: rgb(124, 239, 124);
+}
+
+.navbar {
+    display: flex;
+    box-shadow: rgba(0, 0, 0, .15) 0px -2px 10px 2px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+}
+
+/* nav{
+    box-sizing: border-box;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 1em 2em;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, .15) 0px -2px 10px 2px;
+} */
+
+.brand {
+    font-size: 1.3em;
+}
+
+.brand span {
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.links_list {
+    display: flex;
+    list-style: none;
+    margin-right: 1em;
+}
+
+.links_list li a{
+    padding: .4em .6em;
+}
+
+.active {
+    background-color: #000;
+    color: #fff;
+}
