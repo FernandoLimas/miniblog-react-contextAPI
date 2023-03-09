@@ -11,8 +11,10 @@ Neste projeto realizei:
 - Criação de páginas de navegação;
 - Foi utilizado como banco de dados o firebase;
 - Ultilizei o context-api, que é o gerenciador de estados globais;
+- Criação de posts;
+- Edição de posts;
+- Exclusão de posts;
 ---
-
 
 # Acessando a aplicação:
 
